@@ -1,0 +1,81 @@
+    clang++ "-lncurses" *.o -name;
+    
+    #include <ncurses.h>
+    
+    
+    initscr(); // initialize
+
+    cbreak(); // ctrl + c exit ncurses
+    raw(); // nullfy ctrl + c exit program and print it out
+    noecho(); // no echo// doesn't print out key input
+
+    int     y, x, yBeg, xBeg, yMax, xMax; <==have to declar for the function blow
+
+    WINDOW * win = newwin(10,20,10,10);
+
+    getyx(stdscr, y, x); // stdscr = stander screen default window, (win, int, int) 
+    getbegyx(win, yBeg, xBeg); // cursor starting point
+    getmaxyx(win, yMax, Xmax); // max line of col, row
+    
+    mvprintw(yMax/2, xMax/2, "hello"); // prints roughly in mid
+****************************************************************************************************
+
+
+    move(y, x); // move cursor to (x, y) location /y = row / x = row
+
+    printw(char *s); // prints s to window;
+            ("%d, int c) // can use like printf;
+
+    mvprintw(x, y, ...) // move + printw
+
+    refresh(); // refreshes the screen to match memory
+
+
+
+    clear(); //clear screen;
+
+    getch(); // get user input and return int value of input;
+    
+******************************************************************************************************************
+
+    WINDOW * win = newwin(height, width, start_y, start_x); // create a new windown;
+    refresh();
+
+    box(win, int leftRigh, int topBottom); // create a box in the window; leftRigh char for side border / topBottom char to topdown border
+    
+    wborder(win, left, right, top, bottom, tlc, trc, blc, brc);
+    
+    wprintw(win, char *s); // print s into window;
+    mvwprintw(win,y,x, s); // print s to (x, y) in window;
+    wrefresh(win);
+******************************************************************************************************************
+
+
+
+start_ncurses(true, true);
+
+if (!has_colors()) // check to see if support color
+
+start_color(); // init the color change
+
+init_pair(#, txtColor, bgColor);
+        (COLOR_PAIR(n), COLOR_BLACK 0, COLOR_RED 1, COLOR_GREEN 2, COLOR_YELOW 3, 
+        COLOR_BLUE 4, COLOR_MAGENTA 5, COLOR_CYAN 6, COLOR_WHITE 7)
+
+if (can_change_color()) // check if support change color
+    init_pair(COLOR_CYAN,  0-999, 0-999, 0-999);
+
+attron(); // enable // also can pass in ^Color_pair(#);
+        (A_NORMAL, A_STANDOUT, A_REVERSE, A_BLINK, A_DIM, 
+        A_BOLD, A_PROJECT, A_INVIS, A_ALTCHARSET, A_CHARTEXT)
+
+attroff(); // disable () 
+      
+
+
+
+******************************************************************************************************************
+
+    
+    
+    endwin(); // deallocates
