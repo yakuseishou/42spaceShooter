@@ -7,7 +7,5 @@
 # GameOver:
 <img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/GameOver.png" alt="title page" width="50%" height="40%" style="float: inline-end; margin-left: 10%;"/><br></br>
 # GamePlay:
-<p style="display=flex;"
-<img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/InGame.png" alt="title page" width="45%" height="40%" style="float: left; margin-left: 10%;"/>
-<img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/PlayerBullet.jpg" alt="title page" width="45%" height="40%" style="float: left; margin-left: 10%;"/><br></br>
-</p>
+<img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/InGame.png" alt="title page" width="45%" height="40%" style="float: left; margin-right: 2%;"/>
+<img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/PlayerBullet.jpg" alt="title page" width="45%" height="40%" style="float: left; margin-right: 2%;" <p style="clear: both;"> /><br></br>
