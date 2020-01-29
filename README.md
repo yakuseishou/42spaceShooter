@@ -12,10 +12,14 @@
 <img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/PlayerBullet.jpg" alt="title page" width="40%" height="30%" style="float: left; margin-right: 2%;"/><br></br>
 
 # possible improvement in the future
-1. Horizontal movement and spawm point needs update:
+1. Horizontal movement and spawm point needs update:<br></br>
 Horizontal coordinate(x) uses only every 2-3 space cause column are thinner than row, which causes a delay feeling when moving left and right if kept at moving one space at a time. Changing player moving horizontally 2-3 space at a time will have to change enemy spawm and enemy movement also or it could create unkillable enemy due to player bullet will never be on the same column.
-2. Incorprate live stock/Bosses/special ability for player
+2. Improve GUI <br></br>
+add color to start up/menu/gameOver screen<br></br>
+add control key tips
 
-3. Different area map
+3. Incorprate live stock/Bosses/special ability for player
 
-4. power up item
+4. Different area map
+
+5. power up item
