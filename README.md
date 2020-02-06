@@ -4,10 +4,10 @@ Collaborate with another student to develop a vertical scrolling shooting game f
 
 # Usage:
 Command list:<br></br>
-Make - creates the executable<br></br>
-make clean - removes *.o files<br></br>
-make fclean - does clean^ and removes executable<br></br>
-make re - does fclean && make<br></br>
+> Make - creates the executable<br></br>
+> make clean - removes *.o files<br></br>
+> make fclean - does clean^ and removes executable<br></br>
+> make re - does fclean && make<br></br>
 
 In Game control:<br></br>
 arrow keys- spaceship movement<br></br>
