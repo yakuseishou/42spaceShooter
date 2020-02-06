@@ -4,7 +4,7 @@ Collaborate with another student to develop a vertical scrolling shooting game f
 
 # Usage:
 > ## To start build and start the game:<br></br>
-> make - creates the executable name ft_retro<br></br>
+> make - creates the executable "ft_retro"<br></br>
 > make clean - removes *.o files<br></br>
 > ./ft_retro to run the game
 
