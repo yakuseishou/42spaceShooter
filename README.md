@@ -3,9 +3,11 @@
 Collaborate with another student to develop a vertical scrolling shooting game from scratch within 48hours
 
 # Usage:
-> ## Command list:<br></br>
-> make - creates the executable<br></br>
+> ## To start build and start the game:<br></br>
+> make - creates the executable name ft_retro<br></br>
 > make clean - removes *.o files<br></br>
+> ./ft_retro to run the game
+
 > make fclean - does clean^ and removes executable<br></br>
 > make re - does fclean && make<br></br>
 
