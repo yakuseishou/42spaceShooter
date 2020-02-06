@@ -3,15 +3,15 @@
 Collaborate with another student to develop a vertical scrolling shooting game from scratch within 48hours
 
 # Usage:
-Command list:
-Make - creates the executable
-make clean - removes *.o files
-make fclean - does clean^ and removes executable
-make re - does fclean && make
+Command list:<br></br>
+Make - creates the executable<br></br>
+make clean - removes *.o files<br></br>
+make fclean - does clean^ and removes executable<br></br>
+make re - does fclean && make<br></br>
 
-In Game control:
-arrow keys- spaceship movement
-c - shoots bullets
+In Game control:<br></br>
+arrow keys- spaceship movement<br></br>
+c - shoots bullets<br></br>
 
 # Title Screen: 
 <img src="https://github.com/yakuseishou/42spaceShooter/blob/master/markdownIMG/Title.png" alt="title page" width="50%" height="40%" style="float: inline-end; margin-left: 10%;"/><br></br>
