@@ -1,6 +1,7 @@
 # 42spaceShooter
 42 ft_retro - C++ course's 1st weekend group project <br></br>
-Collaborate with another student to develop a vertical scrolling shooting game from scratch within 48hours
+Collaborate with another student (Alex-https://github.com/NotHawthorne) <br></br>
+to develop a vertical scrolling shooting game from scratch within 48hours
 
 # Usage:
 > ## To start build and start the game:<br></br>
